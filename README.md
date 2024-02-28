@@ -1,5 +1,7 @@
 # Front-end for Fugitive Capture Project
 
+### Live Link: https://fugitive-capture-frontend.vercel.app/
+
 ## Overview
 It is responsible for handling cop selections, simulating the fugitive's location, and determining if the fugitive has been captured. The frontend is built using React, a popular JavaScript library for building user interfaces.
 
