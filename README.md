@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Front-end for Fugitive Capture Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+It is responsible for handling cop selections, simulating the fugitive's location, and determining if the fugitive has been captured. The frontend is built using React, a popular JavaScript library for building user interfaces.
 
-## Available Scripts
+## Technologies Used
+- **React**: Used for building the frontend components and managing the application state.
+- **React Router**: Utilized for handling navigation and routing within the application.
+- **Axios**: Used for making HTTP requests to the backend server.
+- **React Toastify**: Employed for displaying toast notifications to the user.
+- **Tailwind CSS**: Used for styling the components and providing a responsive design.
 
-In the project directory, you can run:
+## Folder Structure
+The frontend part of the project is organized into several directories:
+- **src/components**: Contains reusable React components used throughout the application.
+- **src/context**: Includes the context provider for managing state across components.
+- **src/assets**: Stores static assets such as images and icons.
+- **src/pages**: Houses the main page components of the application.
 
-### `npm start`
+## Setup Instructions
+To set up the frontend part of the project, follow these steps:
+1. Clone the repository to your local machine `git clone https://github.com/ankitsharma21598/fugitive-capture-frontend.git`.
+2. Navigate to the `fugitive-capture-backend` directory.
+3. Run `npm install` to install the required dependencies.
+4. Once the dependencies are installed, run `npm start` to start the development server.
+5. Access the application by navigating to `http://localhost:3000` in your web browser.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Key Files
+- **App.js**: The main component of the application, responsible for rendering all routes.
+- **context/CaptureContext.js**: The context provider managing state related to capturing fugitives.
+- **pages/CaptureForm.js**: The page component for capturing fugitives, where users can select cops, cities, and vehicles.
+- **pages/CaptureResult.js**: The page component for displaying the capture result after submitting the form.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Additional Notes
+- Ensure that the backend server is running on `http://localhost:5000` for the frontend to communicate properly.
+- The application is designed to be responsive and should work well on various screen sizes.
+- For any questions or issues, feel free to contact the project maintainers.
