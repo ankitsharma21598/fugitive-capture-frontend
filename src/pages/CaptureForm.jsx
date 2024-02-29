@@ -55,7 +55,7 @@ function CaptureForm() {
           <div className="flex flex-col">
             <div className="flex flex-col sm:flex-row items-start sm:items-center mr-8">
               {results.map((cop, index) => (
-                <div key={index} className="mb-8 flex flex-col mr-4 sm:mr-8">
+                <div key={index} className="w-full sm:w-auto mb-8 flex flex-col mr-4 sm:mr-8">
                   <div className="sm:hidden">
                     <CopSelectionCity
                       copName={cop.copName}
