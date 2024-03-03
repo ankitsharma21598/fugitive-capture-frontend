@@ -12,8 +12,8 @@ const CopSelectionCity = ({ copName, cities, selectedCity, onSelectCity }) => {
         
         className="block w-full px-4 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:border-blue-500"
       >
-        <option value="">Select a city</option>
-        {cities.map(city => (
+        <option value="" id='check'>Select a city</option>
+        {cities && cities.map(city => (
           <option key={city} value={city}>{city}</option>
         ))}
       </select>
